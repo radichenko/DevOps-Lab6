@@ -1,0 +1,24 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hivemind
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hivemind
+  template:
+    metadata:
+      labels:
+        app: hivemind
+    spec:
+      containers:
+        - name: hivemind
+          image: registry.digitalocean.com/lab5registry/hivemind:latest 
+          ports:
+            - containerPort: 5000 
+          env:
+            - name: COMMUNICATION_CENTER_URL 
+              value: "http://communication-control:8080" 
+      imagePullSecrets:
+        - name: do-registry

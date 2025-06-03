@@ -1,0 +1,11 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: hivemind
+spec:
+  selector:
+    app: hivemind
+  ports:
+    - protocol: TCP
+      port: 5000     
+      targetPort: 5000  

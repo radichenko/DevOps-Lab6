@@ -1,0 +1,26 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: communication-control
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: communication-control
+  template:
+    metadata:
+      labels:
+        app: communication-control
+    spec:
+      containers:
+        - name: communication-control
+          image: registry.digitalocean.com/lab5registry/communication-control:latest 
+          ports:
+            - containerPort: 8080 
+          env:
+            - name: REDIS_HOST
+              value: "redis" 
+            - name: REDIS_PORT
+              value: "6379" 
+      imagePullSecrets:
+        - name: do-registry

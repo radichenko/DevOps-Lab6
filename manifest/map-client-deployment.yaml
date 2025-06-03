@@ -1,0 +1,21 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: map-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: map-client
+  template:
+    metadata:
+      labels:
+        app: map-client
+    spec:
+      containers:
+        - name: map-client
+          image: registry.digitalocean.com/lab5registry/map-client:latest 
+          ports:
+            - containerPort: 80 
+      imagePullSecrets:
+        - name: do-registry
