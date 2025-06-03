@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7abd123-8bc5-4a05-a683-2ab282515b27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/app/communication-control/com-control.deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/app/communication-control/com-control.svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/app/map-client/map-client.config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/app/map-client/map-client.deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/app/map-client/map-client.svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/infrastructure/ingress/app.ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/infrastructure/redis/redis.deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/infrastructure/redis/redis.svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/infrastructure/secrets/gitlab-cr.secret.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/DevOpsProject.CommunicationControl.Logic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/DevOpsProject.CommunicationControl.Logic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/CommunicationControlService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/CommunicationControlService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/ICommunicationControlService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/ICommunicationControlService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/IPublishService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/IPublishService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/IRedisKeyValueService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/IRedisKeyValueService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/ISpatialService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/Interfaces/ISpatialService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/RedisKeyValueService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/RedisKeyValueService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/RedisPublishService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/RedisPublishService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/SpatialService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.CommunicationControl.Logic/Services/SpatialService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Example.MessageListener/DevOpsProject.Example.MessageListener.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Example.MessageListener/DevOpsProject.Example.MessageListener.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Example.MessageListener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Example.MessageListener/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/ApiVersioningConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/ApiVersioningConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/CorsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/CorsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/HttpClientsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/HttpClientsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/LogicConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/LogicConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/OptionsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DI/OptionsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/DevOpsProject.HiveMind.API.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Middleware/ExceptionHandlingMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Middleware/ExceptionHandlingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/DevOpsProject.HiveMind.Logic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/DevOpsProject.HiveMind.Logic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/HiveMindMovingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/HiveMindMovingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/HiveMindService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/HiveMindService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/Interfaces/IHiveMindMovingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/Interfaces/IHiveMindMovingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/Interfaces/IHiveMindService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/Services/Interfaces/IHiveMindService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/State/HiveInMemoryState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.HiveMind.Logic/State/HiveInMemoryState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Clients/CommunicationControlHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Clients/CommunicationControlHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Clients/HiveMindHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Clients/HiveMindHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/ComControlCommunicationConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/ComControlCommunicationConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/HiveCommunicationConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/HiveCommunicationConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/RedisKeys.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/RedisKeys.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/RedisOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Configuration/RedisOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/DevOpsProject.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/DevOpsProject.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Enums/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Enums/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Exceptions/HiveConnectionException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Exceptions/HiveConnectionException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/BaseMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/BaseMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveConnectedMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveConnectedMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveDisconnectedMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveDisconnectedMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveReconnectedMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/HiveReconnectedMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/MoveHiveMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/MoveHiveMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/TelemetrySentMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Messages/TelemetrySentMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveConnectRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveConnectRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveConnectResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveConnectResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveOperationalArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveOperationalArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/HiveTelemetryResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/Location.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/Location.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/MoveHiveMindCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/MoveHiveMindCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/OperationalAreaConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.Shared/Models/OperationalAreaConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.slnLaunch.user" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject.slnLaunch.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Controllers/ClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Controllers/ClientController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Controllers/HiveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Controllers/HiveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/ApiVersioningConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/ApiVersioningConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/CorsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/CorsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/HttpClientsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/HttpClientsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/JsonControllerOptionsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/JsonControllerOptionsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/LogicConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/LogicConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/OptionsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/OptionsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/RedisConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DI/RedisConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DTO/Client/Request/MoveHivesRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DTO/Client/Request/MoveHivesRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.CommunicationControl.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.CommunicationControl.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.CommunicationControl.API.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.CommunicationControl.API.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/DevOpsProject.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Middleware/ExceptionHandlingMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Middleware/ExceptionHandlingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationControl/DevOpsProject/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/public/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/public/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/api/mapService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/api/mapService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/components/MapView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/components/MapView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/components/Popup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/components/Popup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapClient/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapClient/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "radichenko"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/radichenko/DevOps-Lab6.git",
+    "accountId": "71761695-4d63-4a34-92ad-964d8b6e421e"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2y0ZTzzqPeyZfVUsQkOaaSKpI1x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7abd123-8bc5-4a05-a683-2ab282515b27" name="Changes" comment="" />
+      <created>1748973462340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748973462340</updated>
+      <workItem from="1748973463525" duration="336000" />
+    </task>
+    <task id="LOCAL-00001" summary="Clone app repository">
+      <option name="closed" value="true" />
+      <created>1748973633880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748973633880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Clone app repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone app repository" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
