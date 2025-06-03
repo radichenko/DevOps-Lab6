@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: map-client
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: map-client
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80   
-      nodePort: 30080  
+    
