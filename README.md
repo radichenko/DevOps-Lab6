@@ -77,4 +77,3 @@ dotnet publish -p:PublishProfile=FolderProfile --artifacts-path=build/Communicat
 cd src/CommunicationControl
 dotnet publish -p:PublishProfile=FolderProfile --artifacts-path=build/HiveMind DevOpsProject/DevOpsProject.HiveMind.API.csproj
 
----
