@@ -1,0 +1,14 @@
+{
+  "name": "devops-lab6",
+  "version": "1.0.0",
+  "description": "- [Hive Emulator](#hive-emulator)\r   - [About](#about)\r   - [Installation](#installation)\r     - [Redis](#redis)\r     - [Map Component](#map-component)\r     - [Communiction Control](#communiction-control)\r     - [Hive Mind](#hive-mind)\r   - [Usage](#usage)\r   - [Build](#build)\r     - [Map Clinet](#map-clinet)\r     - [Communiction Control](#communiction-control-1)\r     - [Hive Mind](#hive-mind-1)\r     - [Communiction Control](#communiction-control-2)",
+  "main": "tests.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

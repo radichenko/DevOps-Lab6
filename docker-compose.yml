@@ -1,0 +1,47 @@
+﻿version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    networks:
+      - hive-net
+
+  communication-control:
+    image: registry.digitalocean.com/lab5registry/communication-control
+    container_name: communication-control
+    networks:
+      - hive-net
+    ports:
+      - "8080:8080"
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    depends_on:
+      - redis
+
+  hivemind:
+    image: registry.digitalocean.com/lab5registry/hivemind
+    container_name: hivemind
+    networks:
+      - hive-net
+    ports:
+      - "5000:5000"
+    environment:
+      COMMUNICATION_CENTER_URL: http://communication-control:8000
+    depends_on:
+      - communication-control
+
+  map-client:
+    image: registry.digitalocean.com/lab5registry/map-client
+    container_name: map-client
+    networks:
+      - hive-net
+    ports:
+      - "3000:80"
+    depends_on:
+      - communication-control
+
+networks:
+  hive-net:
+    driver: bridge
