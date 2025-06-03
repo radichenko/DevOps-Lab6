@@ -66,25 +66,29 @@ jobs:
       - name: Set environment variables
         run: |
           if [ "${{ github.ref_name }}" == "main" ]; then
-            echo "NAMESPACE=lab6-prod" >> $GITHUB_ENV
+            echo "NAMESPACE=lab6" >> $GITHUB_ENV
           elif [ "${{ github.ref_name }}" == "dev" ]; then
             echo "NAMESPACE=lab6-dev" >> $GITHUB_ENV
           else
-            echo "NAMESPACE=lab6-feature-${{ github.ref_name }}" >> $GITHUB_ENV
+            echo "Skipping deploy for branch ${{ github.ref_name }}"
+            exit 0
           fi
           echo "IMAGE_TO_DEPLOY_TAG=${{ needs.build-and-push.outputs.image_tag }}" >> $GITHUB_ENV
 
       - name: Set up kubectl
+        if: env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         uses: azure/setup-kubectl@v3
         with:
           version: 'latest'
 
       - name: Set up GKE credentials
+        if: env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GKE_CREDENTIALS }}
 
       - name: Get GKE credentials
+        if: env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         uses: google-github-actions/get-gke-credentials@v2
         with:
           cluster_name: autopilot-cluster-lab6-cluster1
@@ -92,6 +96,7 @@ jobs:
           project_id: absolute-cubist-461719-f9
 
       - name: Update image tag in Kubernetes manifests
+        if: env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         run: |
           mkdir -p ./manifest-deploy
           cp -r ./manifest/* ./manifest-deploy/
@@ -100,7 +105,9 @@ jobs:
           done
 
       - name: Deploy manifests to GKE
+        if: env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         run: |
+          echo "Deploying image tag: ${{ env.IMAGE_TO_DEPLOY_TAG }} to namespace: ${{ env.NAMESPACE }}"
           kubectl apply -f ./manifest-deploy/ -n ${{ env.NAMESPACE }}
           kubectl rollout status deployment communication-control -n ${{ env.NAMESPACE }} --timeout=2m
           kubectl rollout status deployment hivemind -n ${{ env.NAMESPACE }} --timeout=2m
@@ -108,7 +115,7 @@ jobs:
 
       - name: Get MapClient LoadBalancer IP
         id: get_map_client_ip
-        if: success()
+        if: success() && env.NAMESPACE != '' && env.NAMESPACE != 'Skipping deploy for branch ${{ github.ref_name }}'
         run: |
           MAP_CLIENT_IP=""
           for i in {1..30}; do
